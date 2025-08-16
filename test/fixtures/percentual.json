@@ -1,0 +1,17 @@
+[
+  {
+    "valorBase": "150",
+    "percentual": "20",
+    "resultadoEsperado": "30"
+  },
+  {
+    "valorBase": "80",
+    "percentual": "50",
+    "resultadoEsperado": "40"
+  },
+  {
+    "valorBase": "200",
+    "percentual": "10",
+    "resultadoEsperado": "20"
+  }
+]
