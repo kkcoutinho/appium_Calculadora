@@ -1,0 +1,14 @@
+[
+  {
+    "valor": "4",
+    "resultadoEsperado": "2"
+  },
+  {
+    "valor": "9",
+    "resultadoEsperado": "3"
+  },
+  {
+    "valor": "16",
+    "resultadoEsperado": "4"
+  }
+]
