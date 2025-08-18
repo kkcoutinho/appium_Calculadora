@@ -1,0 +1,17 @@
+[
+  {
+    "valorBase": "2",
+    "expoente": "2",
+    "resultadoEsperado": "4"
+  },
+  {
+    "valorBase": "3",
+    "expoente": "3",
+    "resultadoEsperado": "27"
+  },
+  {
+    "valorBase": "4",
+    "expoente": "2",
+    "resultadoEsperado": "16"
+  }
+]
