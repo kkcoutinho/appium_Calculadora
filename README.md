@@ -8,33 +8,32 @@ Este projeto realiza testes funcionais automatizados no app **Calculadora do And
 
 ## Ferramentas utilizadas
 
-- Appium
-- WebdriverIO
-- Appium Inspector
-- Android Studio (emulador Android)
-- Git e GitHub
+- Appium  
+- WebdriverIO  
+- Appium Inspector  
+- Android Studio (emulador Android)  
+- Git e GitHub  
 
 ---
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 appium_Calculadora/
 ├── test/
-│   ├── specs/           # Scripts de teste
+│   ├── specs/              # Scripts de teste
 │   │   ├── percentual.test.js
 │   │   ├── raiz.test.js
-│   │   ├── soma.test.js
-│   │   └── subtracao.test.js
-│   └── fixtures/        # Massa de dados (JSON)
+│   │   ├── elevado.test.js
+│   │   └── zinv.test.js
+│   └── fixtures/           # Massa de dados (JSON)
 │       ├── percentual.json
 │       ├── raiz.json
-│       ├── soma.json
-│       └── subtracao.json
-├── wdio.conf.js         # Configuração do WebdriverIO
-├── package.json         # Dependências e scripts
-└── .gitignore           # Arquivos ignorados no Git
-
+│       ├── elevado.json
+│       └── zinv.json
+├── wdio.conf.js            # Configuração do WebdriverIO
+├── package.json            # Dependências e scripts
+└── .gitignore              # Arquivos ignorados no Git
 ```
 
 ---
@@ -53,22 +52,16 @@ npm install
 appium
 ```
 
-### 3. Rodar todos os testes na sequência
+### 3. Rodar todos os testes
 
 ```bash
 npx wdio run wdio.conf.js --spec \
-test/specs/percentual.test.js \
-test/specs/raiz.test.js \
-test/specs/soma.test.js \
-test/specs/subtracao.test.js
+
 ```
 
 ---
 
 🎥 **Vídeo da execução dos testes:**  
-[Assista aqui](https://1drv.ms/v/c/f9b6ddc2788df047/EZZNcW7YodhNr3TmkKajQycBPM9stq8sL3gSgXHo7LQD6A?e=APrCNh)
-
-
-
+[Assista aqui](https://1drv.ms/v/c/f9b6ddc2788df047/EaiF_3pt3AtMinFpeHYNsmsBpol3KMkfKYjMy9p475WYrg?e=ip9OCZ)
 
 
